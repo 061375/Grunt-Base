@@ -1,0 +1,54 @@
+/** 
+ * Some common mixins
+ * */
+/**  
+ * a wrapper for transitions
+ * @param string $s a float point number in second(s) - default .6s
+ * */
+/** 
+ * media query break wrapper
+ * @param string $width - 768px
+ * */
+/** 
+ * wrapper to export common browser prefix for backward compatability
+ * @param array $declarations the list of styles
+ * @param list $prefixes list of prefixes to use
+ * */
+/** 
+ * wrapper for keyframe animations
+ * @param string name of the animation
+ * */
+/** 
+ * force not allow mouse selection of wrapped text
+ * */
+/* line 1, ../working/sass/_flex.scss */
+.flex {
+  display: flex; }
+
+/* line 7, ../working/sass/_flex.scss */
+.c0 {
+  flex: 0; }
+
+/* line 10, ../working/sass/_flex.scss */
+.c1 {
+  flex: 1; }
+
+/* line 13, ../working/sass/_flex.scss */
+.c2 {
+  flex: 2; }
+
+/* line 16, ../working/sass/_flex.scss */
+.c3 {
+  flex: 3; }
+
+/* line 19, ../working/sass/_flex.scss */
+.c4 {
+  flex: 4; }
+
+/* line 22, ../working/sass/_flex.scss */
+.c5 {
+  flex: 5; }
+
+/* line 25, ../working/sass/_flex.scss */
+.c6 {
+  flex: 6; }
